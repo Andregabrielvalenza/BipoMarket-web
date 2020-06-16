@@ -3,17 +3,17 @@
 @section('title','Sobre nosotros')
 @section('contenido')
 	<section>
-		<div class="container-fluid px-0 px-sm-3 px-lg-5">
+		<div class="container-fluid px-0 px-sm-3 px-sm-3 px-lg-5">
 			<div class="row m-0">
 				<div class="col-12 px-0">
 					<div class="div_fondo_azul">
 						<div class="row m-0">
-							<div class="col-12 col-sm-5 col-md-4 col-lg-3 px-0 order-2 order-sm-0 mt-3 mt-sm-0 d-none d-sm-block">
-								<div class="div_colapse pl-3 pt-2">
+							<div class="col-12 col-sm-5 col-md-4 col-lg-3 px-0 order-2 order-sm-0 mt-3 mt-sm-0 d-none d-sm-block py-sm-2">
+								<div class="div_colapse pl-3">
 									<h1 class="h1_titulo_producto mb-0">Laptop</h1>
 								</div>
 							</div>
-							<div class="col-12 col-sm-7 col-md-8 col-lg-9 pr-0 pl-md-3 pl-lg-4">
+							<div class="col-12 col-sm-7 col-md-8 col-lg-9 pr-0 pl-md-3 pl-lg-4 py-2">
 								<div class="div_input">
 									<input type="text" placeholder="¿Qué estas buscando?" class="input_buscardor">
 									<button class="btn_ico">
@@ -48,10 +48,10 @@
 						<h1 class="titulo_nosotros">Yo soy Bipo</h1>
 						<p class="descrip_nosotros">Presentamos al mercado empresarial y público en general de forma sencilla y amigable un <span class="span_nosotros">sin número de ofertas</span> y promociones de productos y servicios en nuestra plataforma, con los precios y porcentajes de descuentos más atractivos, que cubran sus expectativas y necesidades de información en diferentes rubros, tales como: supermercados, tiendas, restaurantes, universidades, institutos, colegios, clínicas, tiendas de ropa, gasolineras, tiendas de repuestos vehiculares y accesorios, hoteles, agencias de viajes, cines, centros de recreación, entre otros. Todo en una sola plataforma.</p>
 						<div class="row m-0 justify-content-sm-center justify-content-md-end mt-5">
-							<div class="col-12 col-sm-4 col-md-6 col-lg-5 col-xl-3 px-4 px-sm-1 mb-1 mb-sm-0">
+							<div class="col-12 col-sm-4 col-md-6 col-lg-5 col-xl-4 px-4 px-sm-1 mb-1 mb-sm-0">
 								<a href="" class="btn btn_nostros_blanco py-3 py-md-2">Quiero ser Bipo</a>
 							</div>
-							<div class="col-12 col-sm-4 col-md-6 col-lg-5 col-xl-3 px-4 px-sm-1 mt-1 mt-sm-0">
+							<div class="col-12 col-sm-4 col-md-6 col-lg-5 col-xl-4 px-4 px-sm-1 mt-1 mt-sm-0">
 								<a href="" class="btn btn_nostros_blanco py-3 py-md-2">Contactanos</a>
 							</div>
 						</div>

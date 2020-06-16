@@ -8,13 +8,12 @@
     <link rel="stylesheet" type="text/css" href="/assets-web/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/assets-web/css/estilo.css">
     <link rel="stylesheet" type="text/css" href="/assets-web/css/flickity.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets-web/css/nike-select.css">
-    <link rel="stylesheet" type="text/css" href="/assets-web/css/jsCarousel-2.0.0.css">
+    <link rel="stylesheet" type="text/css" href="/assets-web/css/animations.css">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-	<section class="position-relative">
-		<div class="container-fluid px-md-3 px-lg-5 py-3 py-md-2">
+	<section class="position-relative fondo_rojo_cabezera">
+		<div class="container-fluid px-md-3 px-lg-5 py-3 py-md-1">
 			<div class="div_cuenta">
 				<div class="div_reporte">
 					<a href="">Reportar fraude</a>
@@ -35,8 +34,8 @@
 		</div>
 		<div class="div_menu_celular">
 			<div class="menu_blanco_celular">
-				<a href="">
-					<img src="/assets-web/img/Grupo72.png" class="menu_img_celular mb-5 mt-4">
+				<a href="/">
+					<img src="/assets-web/img/Grupo72.png" class="menu_img_celular mb-5 mt-4 mt-sm-0 mb-sm-4">
 				</a>
 				<div class="div_lsit_a py-2 text-left">
 					<a href="" class="menu_a">
@@ -73,10 +72,10 @@
 	</section>
 	<section class="seccion_menu">
 		<div class="container-fluid px-md-3 px-lg-5">
-			<div class="menu">
-				<a href=""><img src="/assets-web/img/Grupo72.png" class="img_logo"></a>
+			<div class="menu mt-md-3 mb-3 mb-sm-4 mb-md-3">
+				<a href="/"><img src="/assets-web/img/Grupo72.png" class="img_logo"></a>
 				<div class="list_carrito">
-					<div class="list_menu">
+					<div class="list_menu mr-5">
 						<a href="" class="mr-4">HOME</a>
 						<a href="" class="mr-4">QUE ES BIPO</a>
 						<a href="">COMO FUNCIONA</a>
@@ -263,6 +262,7 @@
 <script src="/assets-web/js/propio.js"></script>
 <script src="/assets-web/js/nice-select.js"></script>
 <script src="/assets-web/js/jsCarousel-2.0.0.js"></script>
+<script src="/assets-web/js/css3-animate-it.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script>
@@ -300,5 +300,6 @@
 		orientation: 'v' 
 	});
 </script>
+
 </body>
 </html>

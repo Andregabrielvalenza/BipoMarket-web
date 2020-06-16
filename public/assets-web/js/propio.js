@@ -44,7 +44,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	var estado = "inicial"
-	 $('.btn_agregar_general').click(function(){
+	 $('.hover_animation').hover(function(){
 	 	if (estado == "inicial") {
 	 		$('.btn_agregar_general').css({'background-color': '#E01F26'});
 	 		$('.btn_agregar_general').css({'color': '#fff'});
@@ -294,3 +294,39 @@ $('.btn_cambio_balance').click(function(){
 		balance="inicial";
 	}
 });
+
+
+var activo = "inicial"
+		 $('.btn_agregar_producto').click(function(){
+		 	if (activo == "inicial") {
+		 		$('.btn_agregar_producto').addClass("color_rojo_agregar");
+		 		$('.btn_agregar_producto').removeClass("color_plomo_agregar");
+ 				activo="click";
+		 	}
+		 	else
+		 	{
+		 		$('.btn_agregar_producto').addClass("color_plomo_compar");
+		 		$('.btn_agregar_producto').removeClass("color_rojo_agregar");
+		 		activo="inicial";
+		 	}
+ 		});
+
+
+$(document).ready(function() {
+	 if (window.screen.width <= 767) {
+		        $('.btn_categorias').click(function(){
+			 		$('.celular').css({'display': 'block'});
+				});
+				$('.close_categoria').click(function(){
+			 		$('.celular').css({'display': 'none'});
+				});
+		    }
+		    if (window.screen.width >= 768) {
+		    	$('.btn_categorias').click(function(){
+			 		$('.div_categorias').css({'display': 'block'});
+				});
+				$('.btn_close_categorias').click(function(){
+			 		$('.div_categorias').css({'display': 'none'});
+				});
+		    }
+	});

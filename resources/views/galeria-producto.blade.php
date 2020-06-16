@@ -2,18 +2,19 @@
 @extends('layouts.master-web')
 @section('title','Galeria-Producto')
 @section('contenido')
+    <link rel="stylesheet" type="text/css" href="/assets-web/css/nike-select.css">
 	<section>
-		<div class="container-fluid px-0 px-md-3 px-lg-5">
+		<div class="container-fluid px-0 px-sm-3 px-md-3 px-lg-5">
 			<div class="row m-0">
 				<div class="col-12 px-0">
 					<div class="div_fondo_azul">
 						<div class="row m-0">
-							<div class="col-12 col-sm-5 col-md-4 col-lg-3 px-0 order-2 order-sm-0 mt-3 mt-sm-0 d-none d-sm-block">
-								<div class="div_colapse pl-3 pt-2">
+							<div class="col-12 col-sm-5 col-md-4 col-lg-3 px-0 order-2 order-sm-0 mt-3 mt-sm-0 d-none d-sm-block py-sm-2">
+								<div class="div_colapse pl-3">
 									<h1 class="h1_titulo_producto mb-0">Galeria de productos</h1>
 								</div>
 							</div>
-							<div class="col-12 col-sm-7 col-md-8 col-lg-9 pr-0 pl-md-3 pl-lg-4">
+							<div class="col-12 col-sm-7 col-md-8 col-lg-9 pr-0 pl-md-3 pl-lg-4 py-2">
 								<div class="div_input">
 									<input type="text" placeholder="¿Qué estas buscando?" class="input_buscardor">
 									<button class="btn_ico">
@@ -217,8 +218,8 @@
 							</div>
 						</div>
 						<div class="col-12 px-0 cuadrado_productos">
-							<div class="row m-0" data-aos="zoom-in-down" data-aos-duration="3000">
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+							<div class="row m-0 animatedParent" data-sequence='100'>
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='1'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -243,7 +244,7 @@
 											  </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -257,7 +258,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='2'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -282,7 +283,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -296,7 +297,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='3'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -321,7 +322,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -335,7 +336,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='4'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -360,7 +361,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -374,7 +375,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='5'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -399,7 +400,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -413,7 +414,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='6'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -438,7 +439,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -452,7 +453,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='7'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -477,7 +478,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -491,7 +492,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='8'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -516,7 +517,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -530,7 +531,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='9'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -555,7 +556,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -569,7 +570,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='10'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -594,7 +595,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -608,7 +609,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='11'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -633,7 +634,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -647,7 +648,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+								<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='12'>
 									<div class="card card_border_radius">
 										<div class="card-body text-center padding_left_rig_genreal_grande">
 											<div class="div_img_azul">
@@ -672,7 +673,7 @@
 											   </p>
 										    </form>
 											<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-											<div class="row m-0 justify-content-center">
+											<div class="row m-0 justify-content-center hover_animation">
 												<div class="col-8 px-0 position-relative d-flex col_animacion" >
 													<button class="btn_corazon_balance derecha">
 														<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -729,6 +730,8 @@
 											</div>
 										</div>
 									</div>
+								</div>
+								<div class="col-12 px-1">
 									<div class="card_list_general mb-2">
 										<div class="div_img_azul">
 											<p class="dov_azul_p_porcentaje">32%</p>

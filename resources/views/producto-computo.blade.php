@@ -2,18 +2,19 @@
 @extends('layouts.master-web')
 @section('title','Producto Compuesto')
 @section('contenido')
+    <link rel="stylesheet" type="text/css" href="/assets-web/css/nike-select.css">
 	<section>
-		<div class="container-fluid px-0 px-md-3 px-lg-5">
+		<div class="container-fluid px-0 px-sm-3 px-md-3 px-lg-5">
 			<div class="row m-0">
 				<div class="col-12 px-0">
 					<div class="div_fondo_azul">
 						<div class="row m-0">
-							<div class="col-12 col-sm-5 col-md-4 col-lg-3 px-0 order-2 order-sm-0 mt-3 mt-sm-0 d-none d-sm-block">
-								<div class="div_colapse pl-3 pt-2">
+							<div class="col-12 col-sm-5 col-md-4 col-lg-3 px-0 order-2 order-sm-0 mt-3 mt-sm-0 d-none d-sm-block py-sm-2">
+								<div class="div_colapse pl-3">
 									<h1 class="h1_titulo_producto mb-0">Laptop Lenovo Y740- 15.6” Intel i7</h1>
 								</div>
 							</div>
-							<div class="col-12 col-sm-7 col-md-8 col-lg-9 pr-0 pl-md-3 pl-lg-4">
+							<div class="col-12 col-sm-7 col-md-8 col-lg-9 pr-0 pl-md-3 pl-lg-4 py-2">
 								<div class="div_input">
 									<input type="text" placeholder="¿Qué estas buscando?" class="input_buscardor">
 									<button class="btn_ico">

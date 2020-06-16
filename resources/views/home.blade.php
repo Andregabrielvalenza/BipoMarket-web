@@ -2,20 +2,25 @@
 @extends('layouts.master-web')
 @section('title','Bipo Market')
 @section('contenido')
+	<link rel="stylesheet" type="text/css" href="/assets-web/css/select-home.css">
 	<section>
-		<div class="container-fluid px-0 px-md-3 px-lg-5">
+		<div class="container-fluid px-0 px-sm-3 px-md-3 px-lg-5">
 			<div class="row m-0">
 				<div class="col-12 px-0">
 					<div class="div_fondo_azul">
 						<div class="row m-0">
-							<div class="col-12 col-sm-5 col-md-4 col-lg-3 px-0 order-2 order-sm-0 mt-3 mt-sm-0">
-								<div class="div_colapse justify-content-center justify-content-md-start">
-									<button class="btn_colapse text-right">Productos</button>
-									<div class="div_blanco"></div>
-									<button class="btn_colapse text-left">Servicios</button>
-								</div>
+							<div class="col-12 col-sm-5 col-md-4 col-lg-3 px-0 order-2 order-sm-0 mt-2 mt-sm-0 mb-2 mb-sm-0 d-none d-sm-block">
+								<select>
+									<option>Categorias</option>
+									<option>Categorias A</option>
+									<option>Categorias B</option>
+									<option>Categorias C</option>
+									<option>Categorias D</option>
+									<option>Categorias E</option>
+									<option>Categorias F</option>
+								</select>
 							</div>
-							<div class="col-12 col-sm-7 col-md-8 col-lg-9 pr-0 pl-md-3 pl-lg-4">
+							<div class="col-12 col-sm-7 col-md-8 col-lg-9 pr-0 pl-md-3 pl-lg-4 py-2">
 								<div class="div_input">
 									<input type="text" placeholder="¿Qué estas buscando?" class="input_buscardor">
 									<button class="btn_ico">
@@ -25,6 +30,17 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="col-12 d-block d-sm-none my-3">
+					<select>
+						<option>Categorias</option>
+						<option>Categorias A</option>
+						<option>Categorias B</option>
+						<option>Categorias C</option>
+						<option>Categorias D</option>
+						<option>Categorias E</option>
+						<option>Categorias F</option>
+					</select>
 				</div>
 			</div>
 		</div>
@@ -79,21 +95,21 @@
 					<div class="row m-0">
 						<div class="col-12 py-3 border_col mb-3">
 							<ul style="list-style-type: none;" class="pl-0 mb-0">
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Productos hasta…</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
-								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Productos hasta…</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
+								<li><a class="btn btn_categorias mb-2"><i class="fa fa-angle-right mr-3 icono_rojo"></i>Categoría aaa</a></li>
 							</ul>
 						</div>
 					</div>
@@ -289,19 +305,10 @@
 		<div class="container-fluid px-md-3 px-lg-5">
 			<div class="row m-0">
 				<div class="col-sm-3 col-md-4 col-lg-3 px-0 mb-3">
-					<div class="div_cabezera">
+					<div class="div_cabezera mb-1">
 						<div class="img_fondo_rojo"></div>
 						<div class="fondo_plomo_cabezera">
 							<p class="p_titulo_cabezera">RECOMENDAODS</p>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body text-center padding_left_rig_genreal">
-							<div class="div_img_producto">
-								<img src="/assets-web/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">
-							</div>
-							<p class="p_descrip line_hei mt-3">Este es un nombre de producto</p>
-							<p class="p_precio_peque">S/. 120.00</p>
 						</div>
 					</div>
 					<div class="accordion-wrap mb-1">
@@ -312,7 +319,15 @@
 		                <p class="accordion-header mb-0 ml-4">Producto numero 2</p>
 		              </div>
 		              <div class="accordion-text">
-		                <p> Básica y de fantasía con apliques, metálicos, flocado, purpurina, lentejuelas, bolas, brillantes… alta frecuencia, sublimación, tránsfer, láser, hueco grabado, serigrafía digital, vinilo textil. </p>
+		                <div class="card">
+							<div class="card-body text-center padding_left_rig_genreal">
+								<div class="div_img_producto">
+									<img src="/assets-web/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">
+								</div>
+								<p class="p_descrip line_hei mt-3">Este es un nombre de producto</p>
+								<p class="p_precio_peque">S/. 120.00</p>
+							</div>
+						</div>
 		              </div>
 			        </div>
 			        <div class="accordion-wrap mb-1">
@@ -323,7 +338,15 @@
 		                <p class="accordion-header mb-0 ml-4">Producto numero 2</p>
 		              </div>
 		              <div class="accordion-text">
-		                <p> Básica y de fantasía con apliques, metálicos, flocado, purpurina, lentejuelas, bolas, brillantes… alta frecuencia, sublimación, tránsfer, láser, hueco grabado, serigrafía digital, vinilo textil. </p>
+		                <div class="card">
+							<div class="card-body text-center padding_left_rig_genreal">
+								<div class="div_img_producto">
+									<img src="/assets-web/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">
+								</div>
+								<p class="p_descrip line_hei mt-3">Este es un nombre de producto</p>
+								<p class="p_precio_peque">S/. 120.00</p>
+							</div>
+						</div>
 		              </div>
 			        </div>
 			        <div class="accordion-wrap mb-1">
@@ -334,7 +357,15 @@
 		                <p class="accordion-header mb-0 ml-4">Producto numero 2</p>
 		              </div>
 		              <div class="accordion-text">
-		                <p> Básica y de fantasía con apliques, metálicos, flocado, purpurina, lentejuelas, bolas, brillantes… alta frecuencia, sublimación, tránsfer, láser, hueco grabado, serigrafía digital, vinilo textil. </p>
+		                <div class="card">
+							<div class="card-body text-center padding_left_rig_genreal">
+								<div class="div_img_producto">
+									<img src="/assets-web/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">
+								</div>
+								<p class="p_descrip line_hei mt-3">Este es un nombre de producto</p>
+								<p class="p_precio_peque">S/. 120.00</p>
+							</div>
+						</div>
 		              </div>
 			        </div>
 			        <div class="accordion-wrap mb-1">
@@ -345,7 +376,15 @@
 		                <p class="accordion-header mb-0 ml-4">Producto numero 2</p>
 		              </div>
 		              <div class="accordion-text">
-		                <p> Básica y de fantasía con apliques, metálicos, flocado, purpurina, lentejuelas, bolas, brillantes… alta frecuencia, sublimación, tránsfer, láser, hueco grabado, serigrafía digital, vinilo textil. </p>
+		                <div class="card">
+							<div class="card-body text-center padding_left_rig_genreal">
+								<div class="div_img_producto">
+									<img src="/assets-web/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">
+								</div>
+								<p class="p_descrip line_hei mt-3">Este es un nombre de producto</p>
+								<p class="p_precio_peque">S/. 120.00</p>
+							</div>
+						</div>
 		              </div>
 			        </div>
 				</div>
@@ -356,8 +395,8 @@
 							<p class="p_titulo_cabezera">ELECTRONICA</p>
 						</div>
 					</div>
-					<div class="row m-0 " data-aos="fade-up" data-aos-duration="3000">
-						<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+					<div class="row m-0 animatedParent" data-sequence='100'>
+						<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='1'>
 							<div class="card card_border_radius">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 									<div class="div_img_azul">
@@ -384,7 +423,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -398,7 +437,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+						<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='2'>
 							<div class="card card_border_radius">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 									<div class="div_img_azul">
@@ -423,7 +462,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -437,7 +476,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+						<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='3'>
 							<div class="card card_border_radius">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 									<div class="div_img_azul">
@@ -462,7 +501,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -476,7 +515,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+						<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='4'>
 							<div class="card card_border_radius">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 									<div class="div_img_azul">
@@ -501,7 +540,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -523,7 +562,7 @@
 					</div>
 				</div>
 				<div class="col-12 px-0 mt-0 mb-3 col_azul_none">
-					<div class="banner_azul">
+				ELECTRONICA	<div class="banner_azul">
 						<img src="/assets-web/img/banners-azul.png" class="img_producto_todos">
 					</div>
 				</div>
@@ -534,18 +573,10 @@
 		<div class="container-fluid px-md-3 px-lg-5">
 			<div class="row m-0">
 				<div class="col-sm-3 col-md-4 col-lg-3 px-0 mb-3">
-					<div class="div_cabezera">
+					<div class="div_cabezera mb-1">
 						<div class="img_fondo_rojo"></div>
 						<div class="fondo_plomo_cabezera">
 							<p class="p_titulo_cabezera">RECOMENDAODS</p>
-						</div>
-					</div>
-					<div class="card">
-						<div class="card-body text-center">
-							<div class="fondo_plomo">
-								<!--<img src="assets/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">-->
-							</div>
-							<p class="p_precio_peque mt-3">S/. 120.00</p>
 						</div>
 					</div>
 					<div class="accordion-wrap mb-1">
@@ -556,7 +587,14 @@
 		                <p class="accordion-header mb-0 ml-4">Producto numero 2</p>
 		              </div>
 		              <div class="accordion-text">
-		                <p> Básica y de fantasía con apliques, metálicos, flocado, purpurina, lentejuelas, bolas, brillantes… alta frecuencia, sublimación, tránsfer, láser, hueco grabado, serigrafía digital, vinilo textil. </p>
+		                <div class="card">
+							<div class="card-body text-center">
+								<div class="fondo_plomo">
+									<!--<img src="assets/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">-->
+								</div>
+								<p class="p_precio_peque mt-3">S/. 120.00</p>
+							</div>
+						</div>
 		              </div>
 			        </div>
 			        <div class="accordion-wrap mb-1">
@@ -567,7 +605,14 @@
 		                <p class="accordion-header mb-0 ml-4">Producto numero 2</p>
 		              </div>
 		              <div class="accordion-text">
-		                <p> Básica y de fantasía con apliques, metálicos, flocado, purpurina, lentejuelas, bolas, brillantes… alta frecuencia, sublimación, tránsfer, láser, hueco grabado, serigrafía digital, vinilo textil. </p>
+		                <div class="card">
+							<div class="card-body text-center">
+								<div class="fondo_plomo">
+									<!--<img src="assets/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">-->
+								</div>
+								<p class="p_precio_peque mt-3">S/. 120.00</p>
+							</div>
+						</div>
 		              </div>
 			        </div>
 			        <div class="accordion-wrap mb-1">
@@ -578,7 +623,14 @@
 		                <p class="accordion-header mb-0 ml-4">Producto numero 2</p>
 		              </div>
 		              <div class="accordion-text">
-		                <p> Básica y de fantasía con apliques, metálicos, flocado, purpurina, lentejuelas, bolas, brillantes… alta frecuencia, sublimación, tránsfer, láser, hueco grabado, serigrafía digital, vinilo textil. </p>
+		                <div class="card">
+							<div class="card-body text-center">
+								<div class="fondo_plomo">
+									<!--<img src="assets/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">-->
+								</div>
+								<p class="p_precio_peque mt-3">S/. 120.00</p>
+							</div>
+						</div>
 		              </div>
 			        </div>
 			        <div class="accordion-wrap mb-1">
@@ -589,7 +641,14 @@
 		                <p class="accordion-header mb-0 ml-4">Producto numero 2</p>
 		              </div>
 		              <div class="accordion-text">
-		                <p> Básica y de fantasía con apliques, metálicos, flocado, purpurina, lentejuelas, bolas, brillantes… alta frecuencia, sublimación, tránsfer, láser, hueco grabado, serigrafía digital, vinilo textil. </p>
+		                <div class="card">
+							<div class="card-body text-center">
+								<div class="fondo_plomo">
+									<!--<img src="assets/img/f7e91bd3e373591308c5730080b98e8d.png" class="img_producto_todos">-->
+								</div>
+								<p class="p_precio_peque mt-3">S/. 120.00</p>
+							</div>
+						</div>
 		              </div>
 			        </div>
 				</div>
@@ -600,8 +659,8 @@
 							<p class="p_titulo_cabezera">TURISMO</p>
 						</div>
 					</div>
-					<div class="row m-0" data-aos="fade-up" data-aos-duration="3000">
-						<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+					<div class="row m-0 animatedParent" data-sequence='100'>
+						<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='1'>
 							<div class="card position-relative card_border_radius">
 								<div class="div_img_azul">
 										<p class="dov_azul_p_porcentaje">32%</p>
@@ -626,7 +685,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -640,7 +699,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+						<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='2'>
 							<div class="card position-relative card_border_radius">
 								<div class="div_img_azul">
 										<p class="dov_azul_p_porcentaje">32%</p>
@@ -665,7 +724,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -679,7 +738,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+						<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='3'>
 							<div class="card position-relative card_border_radius">
 								<div class="div_img_azul">
 										<p class="dov_azul_p_porcentaje">32%</p>
@@ -704,7 +763,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -718,7 +777,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 col-lg-4 col-xl-3 px-1">
+						<div class="col-sm-6 col-lg-4 col-xl-3 px-1 animated fadeInUp" data-id='4'>
 							<div class="card position-relative card_border_radius">
 								<div class="div_img_azul">
 										<p class="dov_azul_p_porcentaje">32%</p>
@@ -743,7 +802,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -788,8 +847,8 @@
 							<p class="p_titulo_cabezera">MAQUINARIA</p>
 						</div>
 					</div>
-					<div class="div_card_5" data-aos="fade-right" data-aos-duration="3000">
-						<div class="px-1 card_5">
+					<div class="div_card_5 animatedParent" data-sequence='100'>
+						<div class="px-1 card_5 animated fadeInLeft" data-id='1'>
 							<div class="card card_border_radius">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 									<div class="div_img_azul">
@@ -814,8 +873,8 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
-										<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion" >
+									<div class="row m-0 justify-content-center hover_animation">
+										<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion " >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
 											</button>
@@ -828,7 +887,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="px-1 card_5">
+						<div class="px-1 card_5 animated fadeInLeft" data-id='2'>
 							<div class="card card_border_radius">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 									<div class="div_img_azul">
@@ -853,7 +912,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -867,7 +926,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="px-1 card_5">
+						<div class="px-1 card_5 animated fadeInLeft" data-id='3'>
 							<div class="card card_border_radius">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 									<div class="div_img_azul">
@@ -892,7 +951,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -906,7 +965,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="px-1 card_5">
+						<div class="px-1 card_5 animated fadeInLeft" data-id='4'>
 							<div class="card card_border_radius">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 									<div class="div_img_azul">
@@ -931,7 +990,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -945,7 +1004,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="px-1 card_5">
+						<div class="px-1 card_5 animated fadeInLeft" data-id='5'>
 							<div class="card card_border_radius">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 									<div class="div_img_azul">
@@ -970,7 +1029,7 @@
 									   </p>
 								    </form>
 									<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-									<div class="row m-0 justify-content-center">
+									<div class="row m-0 justify-content-center hover_animation">
 										<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -1043,11 +1102,11 @@
 					</div>
 				</div>
 				<div class="col-12 px-0" >
-					<div class="div_card_5" data-aos="fade-up" data-aos-duration="3000">
-						<div class="card card_5 alturas_giales mb-1">
+					<div class="div_card_5 animatedParent" data-sequence='100'>
+						<div class="card card_5 alturas_giales mb-1 animated fadeInUp" data-id='1'>
 						   <img src="/assets-web/img/Grupo15.png" width="100%" height="100%" class="img_celular">
 						</div>
-						<div class="card_4_4 px-1">
+						<div class="card_4_4 px-1 animated fadeInUp" data-id='2'>
 							<div class="card card_border_radius mt-0">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 								<div class="div_img_azul">
@@ -1072,7 +1131,7 @@
 									   </p>
 								    </form>
 								<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-								<div class="row m-0 justify-content-center">
+								<div class="row m-0 justify-content-center hover_animation">
 									<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -1086,7 +1145,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="card_4_4 px-1">
+						<div class="card_4_4 px-1 animated fadeInUp" data-id='3'>
 							<div class="card card_border_radius mt-0">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 								<div class="div_img_azul">
@@ -1111,7 +1170,7 @@
 									   </p>
 								    </form>
 								<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-								<div class="row m-0 justify-content-center">
+								<div class="row m-0 justify-content-center hover_animation">
 									<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -1125,7 +1184,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="card_4_4 px-1">
+						<div class="card_4_4 px-1 animated fadeInUp" data-id='4'>
 							<div class="card card_border_radius mt-0">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 								<div class="div_img_azul">
@@ -1150,7 +1209,7 @@
 									   </p>
 								    </form>
 								<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-								<div class="row m-0 justify-content-center">
+								<div class="row m-0 justify-content-center hover_animation">
 									<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
@@ -1164,7 +1223,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="card_4_4 px-1">
+						<div class="card_4_4 px-1 animated fadeInUp" data-id='5'>
 							<div class="card card_border_radius mt-0">
 								<div class="card-body text-center padding_left_rig_genreal_grande">
 								<div class="div_img_azul">
@@ -1189,7 +1248,7 @@
 									</p>
 								</form>
 								<p class="mb-0"><span class="p_precio_peque">S/. 120.00</span><span class="p_precio_sub_peque"><s>S/. 180.00</s></span></p>
-								<div class="row m-0 justify-content-center">
+								<div class="row m-0 justify-content-center hover_animation">
 									<div class="col-8 col-sm-5 col-md-7 col-lg-8 col-xl-7 px-0 position-relative d-flex col_animacion" >
 											<button class="btn_corazon_balance derecha">
 												<i class="far fa-heart icono_corazon_balance  color_plomo_icon corazon"></i>
